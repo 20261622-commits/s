@@ -11,7 +11,7 @@ time.sleep(0.1)
 mc.set_gripper_state(1,10)
 time.sleep(1)
 
-mc.sync_send_angles([-90,2,0,2,2,-45],50)
 mc.sync_send_angles([-90,-90,100,-20,2,-45],70)
+mc.sync_send_angles([-90,2,0,2,2,-45],50)
 mc.set_gripper_state(0,10)
 mc.sync_send_angles([-90,2,0,2,2,-45],50)
